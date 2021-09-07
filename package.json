@@ -5,12 +5,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "lint": "eslint palindromes.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^5.10.0",
     "jest": "^23.6.0"
   }
 }
